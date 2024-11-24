@@ -1,0 +1,10 @@
+__pycache__/
+dist/
+build/
+.env
+*.venv
+.venv/
+.vscode/
+.idea/
+YL-Calculator.exe
+src/

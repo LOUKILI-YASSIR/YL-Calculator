@@ -1,0 +1,37 @@
+# UTF-8
+#
+# For details about VERSIONINFO format, see:
+# https://learn.microsoft.com/en-us/windows/win32/menurc/versioninfo-resource
+
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),  # File version: v1.0.0.0
+    prodvers=(1, 0, 0, 0),  # Product version: v1.0.0.0
+    mask=0x3f,
+    flags=0x0,
+    OS=0x4,                 # Windows NT
+    fileType=0x1,           # Application
+    subtype=0x0,
+    date=(0, 0)             # No specific build date
+  ),
+  kids=[
+    StringFileInfo(
+      [
+        StringTable(
+          u'040904b0',     # Locale: U.S. English with Unicode
+          [
+            StringStruct(u'CompanyName', u'Loukili Yassir'),
+            StringStruct(u'FileDescription', u'YL-Calculator Application'),
+            StringStruct(u'FileVersion', u'1.0.0'),
+            StringStruct(u'InternalName', u'YL-Calculator'),
+            StringStruct(u'LegalCopyright', u'Copyright © 2024 Loukili Yassir, Maroc'),
+            StringStruct(u'OriginalFilename', u'YL-Calculator.exe'),
+            StringStruct(u'ProductName', u'YL-Calculator'),
+            StringStruct(u'ProductVersion', u'1.0.0')
+          ]
+        )
+      ]
+    ),
+    VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
+  ]
+)
