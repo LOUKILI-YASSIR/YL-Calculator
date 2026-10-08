@@ -1,15 +1,23 @@
 # YL-Calculator
 
-YL-Calculator is a graphical calculator built using `customtkinter`. 
+**YL-Calculator** est une calculatrice graphique développée en **Python** à l'aide de la bibliothèque `CustomTkinter`.
 
-## Features
-- Arithmetic operations (+, -, *, ÷)
-- Advanced operations (square, square root, reciprocal)
-- Factorial calculation
-- Keyboard shortcuts for efficient usage
+## Fonctionnalités
 
-## Requirements
-- Python 3.10 or higher
-- Install `customtkinter`:
-  ```bash
-  pip install customtkinter
+* Opérations arithmétiques : `+`, `-`, `*`, `÷`
+* Opérations avancées : carré, racine carrée et inverse
+* Calcul de la factorielle
+* Raccourcis clavier pour une utilisation rapide et efficace
+
+## Prérequis
+
+* **Python 3.10** ou une version supérieure
+* Bibliothèque `CustomTkinter`
+
+### Installation
+
+Installez `CustomTkinter` avec la commande suivante :
+
+```bash
+pip install customtkinter
+```
